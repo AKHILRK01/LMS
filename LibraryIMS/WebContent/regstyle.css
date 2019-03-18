@@ -1,0 +1,60 @@
+body
+{
+	
+	background-image:url('gravel.png');border:2px; border-style:groove;
+	
+}
+	
+	
+div[id="div1"]	{
+	float:left;
+	background-image: radial-gradient(white, CadetBlue);
+    position: absolute; 
+	width:auto;
+	height:auto;
+	border:groove;
+	margin:2%;
+	transform:skew(0deg,-5deg);
+	-ms-transform:skew(0deg,-10deg); 
+	-webkit-transform:skew(0deg,0deg);
+	padding:25px 90px;
+	 
+}
+
+div[id="div2"]	{
+	float:right;
+	background-image: radial-gradient(white, CadetBlue);
+    position: relative; 
+	width:auto;
+	height:auto;
+	border:groove;
+	margin:2%;
+	transform:skew(0deg,-5deg);
+	-ms-transform:skew(0deg,-10deg); 
+	-webkit-transform:skew(0deg,0deg);
+	padding:10px 100px;
+	 text-align: center;
+}
+
+
+div input[type="submit"]
+{
+	
+	 width: auto;
+  padding: 6px 12px;
+   background-color:#FFE4B5;
+	
+}
+div input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #E0FFFF;
+    color: #000;
+}
+h1{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    
+}
+
